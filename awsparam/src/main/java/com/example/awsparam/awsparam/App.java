@@ -1,4 +1,4 @@
-package com.example.awsparam;
+package com.example.awsparam.awsparam;
 
 import java.util.Map;
 
