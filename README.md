@@ -23,3 +23,28 @@ END RequestId: af9395e0-c3a7-4dd8-bc9e-e734fef0cc1b
 2024-08-17T15:10:10.784Z
 REPORT RequestId: af9395e0-c3a7-4dd8-bc9e-e734fef0cc1b Duration: 34.77 ms
 
+
+
+
+=======================test-ecs-env-variable============================
+
+IN Local 
+
+
+
+
+	
+
+
+
+
+IN ECS Container ::::::
+
+
+
+
+
+
+
+
+
