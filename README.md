@@ -31,18 +31,49 @@ REPORT RequestId: af9395e0-c3a7-4dd8-bc9e-e734fef0cc1b Duration: 34.77 ms
 IN Local 
 
 
+application.properties file config ########
 
+spring.application.name=test-ecs-env-variable
+myenv.name=TEST_ENV
+myenv.id=999
+
+
+api result ####### localhost:8080/api/testenv
+
+{
+    "name": "TEST_ENV",
+    "id": "999"
+}
 
 	
 
 
 
 
-IN ECS Container ::::::
+
+IN ECS Container ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 
+ENV variable config:################
 
+myenv.id
+value
+
+7
+myenv.name
+value
+
+AWS
+
+
+
+api result ################# http://13.233.124.185:8080/api/testenv
+
+{
+    "name": "AWS",
+    "id": "7"
+}
 
 
 
